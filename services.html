@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <title>Family Dental</title>
+    </head>
+    <body style="background: #f0d189">
+        <!-- Header Container -->
+        <div class="container-fluid">
+
+            <!-- Header Row -->
+            <div class="row header-row">
+
+                <!-- Logo -->
+                <div class="col mt-3">
+                    <img class="img-fluid h-50" src="assets/logo.png">
+                </div>
+
+                <!-- Company Name -->
+                <div class="col-6 mt-3">
+                    <p class="display-3 text-center">Family Dental (Services)</p>
+                </div>
+
+                <!-- Opening Hours Button -->
+                <div class="col px-0">
+                    <button class="btn btn-lg btn-info rounded-0 text-light float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Opening Hours</button>
+
+                    <div class="offcanvas offcanvas-end bg-info w-25 h-25" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Opening Hours</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <pre class="tab">Monday - Friday  : 9 am - 4 pm</pre>
+                            <pre class="tab">Saturday - Sunday: CLOSED</pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Icon Row -->
+            <div class="row justify-content-center pt-4">
+                <div class="col-2">
+                    <img class="img-fluid phone-icon float-start" src="assets/phone.png" alt="phone icon">
+                    <p class="text-center">+1 (123) 456 789</p>
+                </div>
+
+                <div class="col-2">
+                    <img class="img-fluid location-icon float-start" src="assets/location.png" alt="location icon">
+                    <p class="text-center">75 Laurier Ave. E<br>Ottawa, ON K1N6N5</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="btn btn-outline-warning nav-link" href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="btn btn-outline-warning nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+
+                    <li>
+                        <a class="btn btn-outline-warning nav-link" href="doctors.html">Doctors</a>
+                    </li>
+
+                    <li>
+                        <a class="btn btn-outline-warning nav-link" href="booking.html">Book Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+div.header-row {
+    height: 100px;
+}
+
+div.nav-row {
+    height: 50px;
+}
+
+img.phone-icon {
+    width: 25px;
+    height: 25px;
+}
+
+img.location-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}

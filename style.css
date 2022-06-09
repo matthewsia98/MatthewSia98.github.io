@@ -56,3 +56,7 @@ img.doctor-profile {
 a {
     color: black;
 }
+
+a.btn {
+    border-width:2px;
+}

@@ -13,7 +13,17 @@ img.phone-icon {
 
 img.location-icon {
     width: 25px;
-    height: 25px;
+    height: 30px;
+}
+
+img.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+img.facebook-icon {
+    width: 45px;
+    height: 45px;
 }
 
 .nav-link {
@@ -26,4 +36,18 @@ img.location-icon {
 
 .card {
     background-color: #f0d189;
+}
+
+img.service {
+    width: 300px;
+    height: 300px;
+}
+
+img.doctor {
+    width: 300px;
+    height: 350px;
+}
+
+a {
+    color: black;
 }

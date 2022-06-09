@@ -17,12 +17,12 @@
 
                 <!-- Logo -->
                 <div class="col mt-3">
-                    <img class="img-fluid h-50" src="assets/logo.png">
+                    <img class="img-fluid h-50 ms-4" src="assets/logo.png">
                 </div>
 
                 <!-- Company Name -->
                 <div class="col-6 mt-3">
-                    <p class="display-3 text-center">Family Dental</p>
+                    <p class="display-2 text-center">Family Dental</p>
                 </div>
 
                 <!-- Opening Hours Button -->
@@ -31,7 +31,7 @@
 
                     <div class="offcanvas offcanvas-end bg-info w-25 h-25" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <h5 id="offcanvasRightLabel">Opening Hours</h5>
+                            <h2 id="offcanvasRightLabel">Opening Hours</h2>
                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
@@ -44,21 +44,17 @@
             </div>
 
             <!-- Icon Row -->
-            <div class="row justify-content-center pt-4">
-                <div class="col">
-                    <img class="img-fluid phone-icon float-end" src="assets/phone.png" alt="phone icon">
-                </div>
-                <div class="col">
-                    <p class="text-start">+1 (123) 456 789</p>
+            <div class="row mt-4">
+                <div class="col-md-5 offset-md-5 text-center">
+                    <a href="tel:+1123456789"><img class="img-fluid phone-icon float-start mx-4" src="assets/phone.png" alt="phone icon"></a>
+                    <p class="text-start"><a href="tel:+1123456789">+1 (123) 456 789</a></p>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col">
-                    <img class="img-fluid location-icon float-end" src="assets/location.png" alt="location icon">
-                </div>
-                <div class="col">
-                    <p class="text-start">75 Laurier Ave. E Ottawa, ON K1N6N5</p>
+            <div class="row">
+                <div class="col-md-5 offset-md-5 text-center">
+                    <a href="https://www.google.com/maps/place/75+Laurier+Ave.+E,+Ottawa,+ON+K1N+6N6/" target="_blank"><img class="img-fluid location-icon float-start mx-4" src="assets/location.png" alt="location icon"></a>
+                    <p class="text-start"><a href="https://www.google.com/maps/place/75+Laurier+Ave.+E,+Ottawa,+ON+K1N+6N6/" target="_blank">75 Laurier Ave. E Ottawa,<br>ON K1N6N6</a></p>
                 </div>
             </div>
 
@@ -66,36 +62,38 @@
 
         <!-- Navigation Bar -->
         <div class="container sticky-top mt-4">
-            <ul class="nav nav-justified justify-content-center rounded bg-warning fs-4">
+            <ul class="nav nav-justified justify-content-center rounded bg-warning">
                 <li class="nav-item">
-                    <a class="btn" href="index.html">Home</a>
+                    <a class="btn fs-5" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn" href="services.html">Services</a>
+                    <a class="btn fs-5" href="services.html">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn active" aria-current="page" href="#">Doctors</a>
+                    <a class="btn active fs-5" aria-current="page" href="#">Doctors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn" href="booking.html">Book Appointment</a>
+                    <a class="btn fs-5" href="booking.html">Book Appointment</a>
                 </li>
             </ul>
         </div>
 
 
 
-
+        <!-- Doctor Cards -->
         <div class="card mx-5 my-5">
             <div class="row">
                 <div class="col">
                     <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary">See Profile</button>
+                        <h4 class="card-title mt-2">John Doe</h4>
+                        <p class="card-subtitle display-8 mt-4"><em>Dental Surgeon</em></p>
+                        <p class="card-subtitle display-8"><em>BSc. Doctor of Dental Surgery (University of Ottawa)</em></p >
+                        <p class="card-text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit minus explicabo velit deserunt libero minima magnam sit et! Facere corporis quos, veritatis quidem eligendi, perspiciatis hic minus voluptates quibusdam itaque magnam voluptatem consequatur similique quasi reprehenderit autem! Esse earum consectetur temporibus modi blanditiis veniam ducimus fugiat suscipit vero sapiente!</p>
+                        <a class="btn btn-primary mt-4" href="profile.html">See Profile</a>
                     </div>
                 </div>
                 <div class="col-3">
-                    <img class="img-fluid float-end" src="assets/person.jpg">
+                    <img class="doctor img-fluid float-end" src="assets/person.jpg">
                 </div>
             </div>
         </div> 
@@ -104,13 +102,15 @@
         <div class="card mx-5 my-5">
             <div class="row">
                 <div class="col-3">
-                    <img class="img-fluid float-start" src="assets/person.jpg">
+                    <img class="doctor img-fluid float-start" src="assets/person.jpg">
                 </div>
                 <div class="col">
                     <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary float-end">See Profile</button>
+                        <h4 class="card-title mt-2">Jane Doe</h4>
+                        <p class="card-subtitle display-8 mt-4"><em>Dental Surgeon</em></p>
+                        <p class="card-subtitle display-8"><em>BSc. Doctor of Dental Surgery (University of British Columbia)</em></p>
+                        <p class="card-text mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quasi incidunt sint cum adipisci numquam eveniet provident explicabo assumenda repudiandae, rerum nihil sed, ab aperiam officia a eius, dolores consectetur sapiente? Atque expedita sunt numquam eveniet totam est illo, dicta obcaecati sapiente cum, ut animi voluptas! Nesciunt numquam exercitationem dignissimos!</p>
+                        <a class="btn btn-primary float-end mt-4" href="profile.html">See Profile</a>
                     </div>
                 </div>
             </div>
@@ -118,72 +118,7 @@
             </div>
         </div> 
        
-        <div class="card mx-5 my-5">
-            <div class="row">
-                <div class="col">
-                    <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary">See Profile</button>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid float-end" src="assets/person.jpg">
-                </div>
-            </div>
-        </div> 
-
-
-        <div class="card mx-5 my-5">
-            <div class="row">
-                <div class="col-3">
-                    <img class="img-fluid float-start" src="assets/person.jpg">
-                </div>
-                <div class="col">
-                    <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary float-end">See Profile</button>
-                    </div>
-                </div>
-            </div>
-                
-            </div>
-        </div> 
-
-
-        <div class="card mx-5 my-5">
-            <div class="row">
-                <div class="col">
-                    <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary">See Profile</button>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid float-end" src="assets/person.jpg">
-                </div>
-            </div>
-        </div> 
-
-
-        <div class="card mx-5 my-5">
-            <div class="row">
-                <div class="col-3">
-                    <img class="img-fluid float-start" src="assets/person.jpg">
-                </div>
-                <div class="col">
-                    <div class="card-body">
-                        <h5 class="card-title">Oral Surgery</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium corporis dicta qui dolor hic voluptas, animi nam nisi quia.</p>
-                        <button class="btn btn-primary float-end">See Profile</button>
-                    </div>
-                </div>
-            </div>
-                
-            </div>
-        </div> 
+       
 
 
 

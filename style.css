@@ -60,3 +60,7 @@ a {
 a.btn {
     border-width:2px;
 }
+
+div.offcanvas {
+    width: 50px;
+}

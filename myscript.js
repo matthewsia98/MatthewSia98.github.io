@@ -6,7 +6,8 @@ function load_profile(elem) {
 
 window.addEventListener('DOMContentLoaded', (event) => {
     const doctorName = localStorage.getItem('doctorName');
-    document.getElementById('doctorName').text = doctorName;
+    localStorage.removeItem('doctorName');
+    document.getElementById('doctorName').innerHTML = doctorName;
 
     switch (doctorName) {
         case "John Doe":

@@ -48,6 +48,11 @@ img.doctor {
     height: 350px;
 }
 
+img.doctor-profile {
+    width: 300px;
+    height: 450px;
+}
+
 a {
     color: black;
 }

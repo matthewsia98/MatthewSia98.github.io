@@ -1,19 +1,15 @@
-div.header-row {
-    height: 100px;
-}
-
 div.nav-row {
     height: 50px;
 }
 
 img.phone-icon {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 img.location-icon {
-    width: 25px;
-    height: 30px;
+    width: 30px;
+    height: 40px;
 }
 
 img.social-icon {
@@ -59,8 +55,4 @@ a {
 
 a.btn {
     border-width:2px;
-}
-
-div.offcanvas {
-    width: 50px;
 }

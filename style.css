@@ -23,3 +23,7 @@ img.location-icon {
 .nav-link:hover {
     color: black;
 }
+
+.card {
+    background-color: #f0d189;
+}

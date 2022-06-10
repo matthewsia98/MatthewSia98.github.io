@@ -22,6 +22,11 @@ img.facebook-icon {
     height: 45px;
 }
 
+img.home {
+    width: 600px;
+    height: 500px;
+}
+
 .nav-link {
     color: black;
 }

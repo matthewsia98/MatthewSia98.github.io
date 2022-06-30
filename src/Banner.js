@@ -10,8 +10,8 @@ function Banner() {
           <div className="banner-inner-card">
             <p>Supercharge your learning by picking from our selection of over 5,000 courses and 150,000 videos</p>
             <div className="banner-buttons">
-              <a><button className="light-button">Try for Free</button></a>
-              <a><button id="popular-courses-btn" className="dark-button">Browse popular courses</button></a>
+              <a href="/login"><button className="light-button">Try for Free</button></a>
+              <a href="/course"><button id="popular-courses-btn" className="dark-button">Browse popular courses</button></a>
             </div>
           </div>
         </div>
